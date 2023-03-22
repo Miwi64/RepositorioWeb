@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #252525;
+}
+.main-container h1{
+    color: #d9d9d9;
+    font-size: 3rem;
+    text-align: center;
+}
+.main-container h2, .values-container p{
+    text-align: left;
+}
+.result-container{
+    background-color: black;
+    padding: 1.2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px;
+    border-radius: 10px;
+    transition: scale 0.4s;
+}
+.result-container:hover{
+    scale: 1.2;
+}
+.result-container p {
+    margin-right: 30px;
+    font-size: 4rem;
+    color: #282828;
+}
+.result-container h2{
+    font-size: 5rem;
+    color: cyan;
+}
+.result-container p, .result-container h2{
+    display: inline;
+}
+.values-container p{
+    font-weight: bold;
+    color: #a0a0a0;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    display: inline-flex;
+    margin-right: 3rem;
+}
+button{
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    background-color: #707070;
+    color: #d9d9d9;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-right: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 7px 29px 0px;
+}
+button:hover{
+    background-color: darkcyan;
+    transition: background-color 0.3s;
+}
+.erase-button{
+    background-color: crimson;
+}
+.erase-button:hover{
+    background-color: darkred;
+}

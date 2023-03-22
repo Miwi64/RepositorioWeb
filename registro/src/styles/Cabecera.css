@@ -1,0 +1,10 @@
+.header-container{
+    background-color: dodgerblue;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 20px;
+}
+.header-container-title{
+    color: white;
+    font-size: 2rem;
+}
